@@ -1,0 +1,6 @@
+{
+  "name": "Alpha Virtual Task",
+  "description": "Professional virtual and data services including data entry, web research, Excel spreadsheets, data processing, transcription, translation, and quality assurance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
