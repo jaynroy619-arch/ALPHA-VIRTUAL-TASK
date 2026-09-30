@@ -1,5 +1,6 @@
 import React from 'react';
 import { Database, FileSpreadsheet, Cpu, Search, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import heroWorkspaceImg from '../../assets/images/hero_data_workspace_1790788239281.jpg';
 
 export const HeroVisual25D: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ export const HeroVisual25D: React.FC = () => {
         {/* Background Image Texture */}
         <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-luminosity overflow-hidden">
           <img
-            src="/src/assets/images/hero_data_workspace_1790788239281.jpg"
+            src={heroWorkspaceImg}
             alt="Data workspace visual texture"
             className="w-full h-full object-cover"
             loading="eager"

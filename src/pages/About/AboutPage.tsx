@@ -2,6 +2,7 @@ import React from 'react';
 import { ShieldCheck, Target, HeartHandshake, Eye, Clock, CheckCircle2, ArrowRight } from 'lucide-react';
 import { WorkWithUsButton, WhatsAppButton, EmailButton } from '../../components/ContactButtons/ContactButtons';
 import { BUSINESS_INFO } from '../../utils/contactLinks';
+import aboutWorkspaceImg from '../../assets/images/about_workspace_1790788265673.jpg';
 
 export const AboutPage: React.FC = () => {
   const pillars = [
@@ -78,7 +79,7 @@ export const AboutPage: React.FC = () => {
         <div className="lg:col-span-6">
           <div className="relative rounded-2xl overflow-hidden border border-[#d4af37]/35 shadow-2xl">
             <img
-              src="/src/assets/images/about_workspace_1790788265673.jpg"
+              src={aboutWorkspaceImg}
               alt="Professional executive workstation"
               className="w-full h-auto object-cover"
               loading="lazy"
